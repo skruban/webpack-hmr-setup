@@ -1,10 +1,4 @@
 module.exports = {
-  mode: 'development',
-  devServer: {
-    port: 9000,
-    contentBase: 'public',
-    hot: true
-  },
   module: {
     rules: [
       {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server src/index.js -o public/main.js"
+    "start": "webpack-dev-server src/index.js -o public/main.js --mode=development --port=9000 --contentBase=public --hot=true"
   },
   "repository": {
     "type": "git",
